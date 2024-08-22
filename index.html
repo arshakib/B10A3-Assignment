@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .manrope {
+        font-family: "Manrope", sans-serif;
+    }
+</style>
+
+    <title>Document</title>
+</head>
+<body class="manrope">
+    <header class="w-10/12 mx-auto mt-9 mb-5">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="font-extrabold text-xl flex items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-4 bg-[#ABEF5F] rounded-full ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+              Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-extrabold">home</a></li>
+                <li>
+                  <a>service</a>
+                </li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end space-x-4">
+                <i class="fa-solid fa-magnifying-glass bg-[#E9E9E9] p-2.5 rounded-full hidden lg:flex"></i>
+                <i class="fa-solid fa-cart-shopping bg-[#E9E9E9] p-2.5 rounded-full hidden lg:flex"></i>
+              <a class="font-extrabold bg-[#ABEF5F] px-3 py-2 rounded-full hidden  lg:flex">Book Consult    <i class="fa-solid fa-arrow-right fa-rotate-by text-white p-1.5 rounded-full bg-black ml-2" style="--fa-rotate-angle: -44deg; "></i></a>
+
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+            </div>
+          </div>
+    </header>
+    <div class="space-y-5 lg:space-y-10">
+        <img class="mx-auto w-4/5 lg:w-2/5" src="./assets/banner.png" alt="">
+        <h2 class="text-center text-3xl lg:text-6xl text-[#212121] font-extrabold">A barn house of this design has a<br> striking appearance</h2>
+        <h4 class="text-center text-[#494949] text-[14px] font-medium px-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal<br> accents, and large windows that flood the space with natural light.</h4>
+        <div class="flex justify-center mx-4">
+            <a class=" font-bold bg-[#ABEF5F80] px-3 py-2 rounded-full w-full lg:w-48 text-center">View Details  <i class="fa-solid fa-arrow-right fa-rotate-by p-1.5 rounded-full bg-[#ABEF5F]" style="--fa-rotate-angle: -44deg; "></i></a>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
