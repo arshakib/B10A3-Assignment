@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      extend: {
+        backgroundImage: {
+          'addiback': "url('./assets/bg.jpg')"
+        }
+  
+      },
     },
     plugins: [],
   }
